@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col md:flex-row justify-between items-center pt-8 text-sm ">
                     <p className="opacity-60">
-                        © {new Date().getFullYear()} KeenKeeper. All rights reserved.
+                        © 2026 KeenKeeper. All rights reserved.
                     </p>
                     <nav className="flex gap-8 mt-6 md:mt-0 opacity-80">
                         <a className="hover:text-white hover:underline cursor-pointer">Privacy Policy</a>
