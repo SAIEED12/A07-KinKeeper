@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
         <div className="bg-[#FFFFFF] shadow-lg gap-4 p-10 rounded-lg">
           {" "}
-          <h2 className="text-center text-[#244D3F] font-bold text-3xl mb-2">3</h2>
+          <h2 className="text-center text-[#244D3F] font-bold text-3xl mb-2">4</h2>
           <p className="text-[#64748B] text-[18px] text-center">On Track</p>
         </div>
         <div className="bg-[#FFFFFF] shadow-lg gap-4 p-10 rounded-lg">

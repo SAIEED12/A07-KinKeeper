@@ -17,7 +17,7 @@ const FriendCard = ({friend}) => {
     <h2 className="card-title">{friend.name}</h2>
     <p>{friend.days_since_contact}d ago</p>
     <p>{friend.tags.map((tag) => (
-      <span key={tag} className="badge bg-green-200 mr-2 uppercase">
+      <span key={tag} className="badge bg-green-200 mr-2 uppercase font-semibold">
         {tag}
       </span>
     ))}</p>

@@ -3,9 +3,8 @@ import React from "react";
 import { GoBell } from "react-icons/go";
 import { FiArchive } from "react-icons/fi";
 import { RiDeleteBin5Line } from "react-icons/ri";
-import { BiPhoneCall } from "react-icons/bi";
-import { RiMessage2Line } from "react-icons/ri";
-import { PiVideoCamera } from "react-icons/pi";
+import ToggleButton from "@/components/ToggleButton";
+
 
 const friendsPromise = async function () {
   const res = await fetch("http://localhost:3000/data.json");
@@ -93,20 +92,9 @@ const FriendsDetailsPage = async ({ params }) => {
     </div>
     <div className="bg-white rounded-xl shadow-sm p-6">
       <h3 className="text-[#244D3F] font-semibold text-base mb-4">Quick Check-In</h3>
-      <div className="grid grid-cols-3 gap-4">
-        <div className="border border-gray-200 rounded-xl p-4 flex flex-col items-center gap-2 cursor-pointer hover:bg-gray-50">
-          <BiPhoneCall className="text-2xl text-[#1F2937]" />
-          <span className="text-sm text-[#1F2937]">Call</span>
-        </div>
-        <div className="border border-gray-200 rounded-xl p-4 flex flex-col items-center gap-2 cursor-pointer hover:bg-gray-50">
-          <RiMessage2Line className="text-2xl text-[#1F2937]" />
-          <span className="text-sm text-[#1F2937]">Text</span>
-        </div>
-        <div className="border border-gray-200 rounded-xl p-4 flex flex-col items-center gap-2 cursor-pointer hover:bg-gray-50">
-          <PiVideoCamera className="text-2xl text-[#1F2937]" />
-          <span className="text-sm text-[#1F2937]">Video</span>
-        </div>
-      </div>
+ 
+        <ToggleButton friend={friend}></ToggleButton>
+
     </div>
 
   </div>
