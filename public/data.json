@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sarah.mitchell@gmail.com",
+    "days_since_contact": 18,
+    "status": "Overdue",
+    "tags": ["college"],
+    "bio": "Met in university during freshman orientation. We survived finals week together and have been inseparable since.",
+    "goal": 14,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 2,
+    "name": "James Carter",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "james.carter@outlook.com",
+    "days_since_contact": 5,
+    "status": "On-track",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager at the startup. Taught me everything about product thinking and staying calm under pressure.",
+    "goal": 10,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 3,
+    "name": "Priya Nair",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "priya.nair@yahoo.com",
+    "days_since_contact": 30,
+    "status": "Almost Due",
+    "tags": ["childhood"],
+    "bio": "Grew up on the same street. Our families have been close for over 20 years.",
+    "goal": 21,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 4,
+    "name": "Liam Thompson",
+    "picture": "https://randomuser.me/api/portraits/men/56.jpg",
+    "email": "liam.t@protonmail.com",
+    "days_since_contact": 3,
+    "status": "On-track",
+    "tags": ["gym", "close friend"],
+    "bio": "Training partner for the past two years. We push each other every morning at 6am.",
+    "goal": 7,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 5,
+    "name": "Amelia Brooks",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "amelia.brooks@gmail.com",
+    "days_since_contact": 45,
+    "status": "Almost Due",
+    "tags": ["travel", "college"],
+    "bio": "Backpacked across Southeast Asia together after graduation. She lives in Berlin now but we try to visit each year.",
+    "goal": 30,
+    "next_due_date": "2025-06-30"
+  },
+  {
+    "id": 6,
+    "name": "Noah Patel",
+    "picture": "https://randomuser.me/api/portraits/men/74.jpg",
+    "email": "noah.patel@gmail.com",
+    "days_since_contact": 8,
+    "status": "Overdue",
+    "tags": ["work", "tech"],
+    "bio": "Met at a hackathon in 2022. We have been collaborating on side projects ever since.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 7,
+    "name": "Chloe Dubois",
+    "picture": "https://randomuser.me/api/portraits/women/26.jpg",
+    "email": "chloe.dubois@icloud.com",
+    "days_since_contact": 60,
+    "status": "Overdue",
+    "tags": ["neighbor"],
+    "bio": "My neighbor for three years who introduced me to painting. Moved to Montreal last spring.",
+    "goal": 21,
+    "next_due_date": "2025-06-25"
+  },
+  {
+    "id": 8,
+    "name": "Ethan Rivera",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "ethan.rivera@gmail.com",
+    "days_since_contact": 11,
+    "status": "On-track",
+    "tags": ["high school"],
+    "bio": "Best friend since high school. We still have our weekly gaming sessions every Sunday night.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 9,
+    "name": "Maya Gonzalez",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "maya.gonzalez@gmail.com",
+    "days_since_contact": 22,
+    "status": "Almost Due",
+    "tags": ["yoga", "neighbor"],
+    "bio": "Met at a yoga class two years ago. We grab coffee every few weeks and always leave feeling recharged.",
+    "goal": 21,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 10,
+    "name": "Daniel Kim",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "daniel.kim@protonmail.com",
+    "days_since_contact": 2,
+    "status": "On-track",
+    "tags": ["college"],
+    "bio": "Bandmate from college. We still jam together on weekends and go to live shows whenever we can.",
+    "goal": 7,
+    "next_due_date": "2025-07-14"
+  }
+]

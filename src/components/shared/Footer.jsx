@@ -1,17 +1,17 @@
 import React from 'react';
+import footerLogo from "../../assets/logo-xl.png"
 import { FaInstagram, FaFacebookF } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
+import Image from 'next/image';
 
 const Footer = () => {
     return (
         <footer className="bg-[#244D3F] text-[#FFFFFF] p-10">
             <div className="container mx-auto">
                 <div className="flex flex-col items-center text-center border-b border-white/10 pb-12">
-                    <aside className="mb-8">
-                        <h1 className='mb-6 text-4xl md:text-5xl font-bold'>
-                            KinKeeper
-                        </h1>
-                        <p className="opacity-80 mx-auto ">
+                    <aside className="mb-8 ">
+                        <Image src={footerLogo} alt="Footer Logo" className="mb-4 mx-auto mt-4" />
+                        <p className="opacity-80 mx-auto">
                             Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
                         </p>
                     </aside>
