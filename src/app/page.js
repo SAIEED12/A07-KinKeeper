@@ -1,9 +1,10 @@
+import Banner from "@/components/homepage/Banner";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center font-sans">
-      <main className="flex flex-1 w-full max-w-7xl flex-col items-center justify-between py-32 px-16  sm:items-start">
-          <h2 className="text-7xl">HELLO WORLD</h2>
+    <div className="flex flex-col flex-1 items-center justify-center font-sans bg-[#F8FAFC]">
+      <main className="flex flex-1 w-full max-w-7xl flex-col items-center justify-between py-32 px-16 sm:items-start bg-[#F8FAFC]">
+         <Banner></Banner>
       </main>
     </div>
   );

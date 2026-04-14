@@ -8,8 +8,8 @@ const Footer = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col items-center text-center border-b border-white/10 pb-12">
                     <aside className="mb-8">
-                        <h1 className='mb-6 text-6xl md:text-7xl font-bold'>
-                            KeenKeeper
+                        <h1 className='mb-6 text-4xl md:text-5xl font-bold'>
+                            KinKeeper
                         </h1>
                         <p className="opacity-80 mx-auto ">
                             Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
