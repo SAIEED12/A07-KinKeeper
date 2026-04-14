@@ -9,7 +9,7 @@
     "tags": ["college"],
     "bio": "Met in university during freshman orientation. We survived finals week together and have been inseparable since.",
     "goal": 14,
-    "next_due_date": "2025-07-15"
+    "next_due_date": "Jul 15, 2025"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "tags": ["work", "mentor"],
     "bio": "My first manager at the startup. Taught me everything about product thinking and staying calm under pressure.",
     "goal": 10,
-    "next_due_date": "2025-07-10"
+    "next_due_date": "Jul 10, 2025"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "tags": ["childhood"],
     "bio": "Grew up on the same street. Our families have been close for over 20 years.",
     "goal": 21,
-    "next_due_date": "2025-07-05"
+    "next_due_date": "Jul 05, 2025"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tags": ["gym", "close friend"],
     "bio": "Training partner for the past two years. We push each other every morning at 6am.",
     "goal": 7,
-    "next_due_date": "2025-07-12"
+    "next_due_date": "Jul 12, 2025"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "tags": ["travel", "college"],
     "bio": "Backpacked across Southeast Asia together after graduation. She lives in Berlin now but we try to visit each year.",
     "goal": 30,
-    "next_due_date": "2025-06-30"
+    "next_due_date": "Jun 30, 2025"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "tags": ["work", "tech"],
     "bio": "Met at a hackathon in 2022. We have been collaborating on side projects ever since.",
     "goal": 14,
-    "next_due_date": "2025-07-18"
+    "next_due_date": "Jul 18, 2025"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "tags": ["neighbor"],
     "bio": "My neighbor for three years who introduced me to painting. Moved to Montreal last spring.",
     "goal": 21,
-    "next_due_date": "2025-06-25"
+    "next_due_date": "Jun 25, 2025"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "tags": ["high school"],
     "bio": "Best friend since high school. We still have our weekly gaming sessions every Sunday night.",
     "goal": 14,
-    "next_due_date": "2025-07-20"
+    "next_due_date": "Jul 20, 2025"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "tags": ["yoga", "neighbor"],
     "bio": "Met at a yoga class two years ago. We grab coffee every few weeks and always leave feeling recharged.",
     "goal": 21,
-    "next_due_date": "2025-07-22"
+    "next_due_date": "Jul 22, 2025"
   },
   {
     "id": 10,
@@ -117,6 +117,6 @@
     "tags": ["college"],
     "bio": "Bandmate from college. We still jam together on weekends and go to live shows whenever we can.",
     "goal": 7,
-    "next_due_date": "2025-07-14"
+    "next_due_date": "Jul 14, 2025"
   }
 ]

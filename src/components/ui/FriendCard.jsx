@@ -23,7 +23,7 @@ const FriendCard = ({friend}) => {
     ))}</p>
     <p className={`rounded-full px-3 py-1 mt-1 ${
       friend.status === 'Overdue' ? 'bg-red-500 text-white' :
-      friend.status === 'On-track' ? 'bg-green-600 text-white' :
+      friend.status === 'On-track' ? 'bg-green-800 text-white' :
       friend.status === 'Almost Due' ? 'bg-[#EFAD44] text-white' :
       'bg-gray-300 text-gray-700'
     }`}>

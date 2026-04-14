@@ -1,6 +1,4 @@
-
 import FriendCard from "@/components/ui/FriendCard";
-
 
 const friendsPromise = async function () {
   const res = await fetch("http://localhost:3000/data.json");
@@ -11,7 +9,6 @@ const friendsPromise = async function () {
 const FriendsPage = async() => {
 
     const friends = await friendsPromise();
-
 
   return (
     <div className="container mx-auto">
