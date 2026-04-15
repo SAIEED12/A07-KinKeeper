@@ -21,7 +21,12 @@ const TimelinePage = () => {
 };
 
   return (
-    <div className="container mx-auto p-10">
+    <div className="p-6">
+        {timeline.length === 0 ? (
+            <div className="text-center text-gray-500 mt-35 sm:mt-50 text-3xl">
+                <p>Timeline is empty!</p>
+            </div>
+        ) : (<div className="container mx-auto p-10">
       <h2 className="text-5xl font-bold mb-8 mt-20">Timeline</h2>
       <div className=" w-full sm:w-64 mb-10">
         <select className="w-full border border-gray-200 rounded-xl px-4 py-3 text-black bg-white cursor-pointer focus:outline-none font-semibold">
@@ -39,8 +44,8 @@ const TimelinePage = () => {
     <div className="text-2xl flex justify-center items-center">{getIcon(item.type)}</div>
 
     <div>
-      <h3 className="font-semibold">
-        {item.type} with {item.name}
+      <h3 className="font-semibold text-[#244D3F] text-lg">
+        {item.type}  <span className="text-gray-400 font-normal">with {item.name}</span>
       </h3>
       <p className="text-sm text-gray-500">
         {new Date(item.date).toLocaleString("en-US", {
@@ -51,9 +56,11 @@ const TimelinePage = () => {
       </p>
     </div>
   </div>
-))}
-    </div>
-  );
+    ))}
+  </div>
+      )}
+  </div>
+);
 };
 
 export default TimelinePage;

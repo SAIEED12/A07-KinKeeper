@@ -9,7 +9,7 @@ import { toast, Zoom } from "react-toastify";
 const ToggleButton = ({ friend }) => {
   const { timeline, setTimeline } = useContext(TimelineContext);
 
-  const handleAction = (friend, action) => {
+  const handleAction = ((friend, action) => {
     const log = {
       id: Date.now(),
       name: friend.name,
@@ -28,7 +28,7 @@ const ToggleButton = ({ friend }) => {
       theme: "dark",
       transition: Zoom,
     });
-  };
+  });
 
  
 
