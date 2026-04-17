@@ -16,8 +16,7 @@ const useFriends = () => {
     fetchData();
   }, []);
 
-  console.log(friends);
-  return <div></div>;
+  return { friends, loading };
 };
 
 export default useFriends;
