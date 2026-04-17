@@ -3,6 +3,7 @@ import FriendCard from "@/components/ui/FriendCard";
 const friendsPromise = async function () {
   const res = await fetch("https://kinkeeper-tau.vercel.app//data.json");
   const data = await res.json();
+   await new Promise((resolve) => setTimeout(resolve, 1000));
   return data;
 };
 
