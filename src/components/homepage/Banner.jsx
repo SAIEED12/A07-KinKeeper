@@ -17,24 +17,37 @@ const Banner = () => {
         </button>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-14">
-        <div className="bg-[#FFFFFF] shadow-lg gap-4 p-10 rounded-lg">
-          <h2 className="text-center text-[#244D3F] font-bold text-3xl mb-2">10</h2>
-          <p className="text-[#64748B] text-[18px] text-center">Total Friends</p>
+        <div className="bg-[#FFFFFF] shadow-lg p-5 rounded-lg">
+          <h2 className="text-center text-[#244D3F] font-bold text-2xl sm:text-3xl mb-2">
+            10
+          </h2>
+          <p className="text-[#64748B] text-sm sm:text-base text-center">
+            Total Friends
+          </p>
         </div>
-        <div className="bg-[#FFFFFF] shadow-lg gap-4 p-10 rounded-lg">
-          {" "}
-          <h2 className="text-center text-[#244D3F] font-bold text-3xl mb-2">4</h2>
-          <p className="text-[#64748B] text-[18px] text-center">On Track</p>
+        <div className="bg-[#FFFFFF] shadow-lg p-5 rounded-lg">
+          <h2 className="text-center text-[#244D3F] font-bold text-2xl sm:text-3xl mb-2">
+            4
+          </h2>
+          <p className="text-[#64748B] text-sm sm:text-base text-center">
+            On Track
+          </p>
         </div>
-        <div className="bg-[#FFFFFF] shadow-lg gap-4 p-10 rounded-lg">
-          {" "}
-          <h2 className="text-center text-[#244D3F] font-bold text-3xl mb-2">6</h2>
-          <p className="text-[#64748B] text-[18px] text-center">Need Attention</p>
+        <div className="bg-[#FFFFFF] shadow-lg p-5 rounded-lg">
+          <h2 className="text-center text-[#244D3F] font-bold text-2xl sm:text-3xl mb-2">
+            6
+          </h2>
+          <p className="text-[#64748B] text-sm sm:text-base text-center">
+            Need Attention
+          </p>
         </div>
-        <div className="bg-[#FFFFFF] shadow-lg gap-4 p-10 rounded-lg">
-          {" "}
-          <h2 className="text-center text-[#244D3F] font-bold text-3xl mb-2">12</h2>
-          <p className="text-[#64748B] text-center">Interactions This Month</p>
+        <div className="bg-[#FFFFFF] shadow-lg p-5 rounded-lg">
+          <h2 className="text-center text-[#244D3F] font-bold text-2xl sm:text-3xl mb-2">
+            12
+          </h2>
+          <p className="text-[#64748B] text-sm sm:text-base text-center">
+            Interactions This Month
+          </p>
         </div>
       </div>
       <div className="bg-gray-200 h-0.5 w-full"></div>

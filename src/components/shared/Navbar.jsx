@@ -29,7 +29,7 @@ const Navbar = () => {
   <div className="container mx-auto"> 
     <div className="navbar-start">
       <Link href="/" className="text-xl font-bold hover:bg-slate-100">
-        <Image src={logo} alt="Logo" className="" />
+        <Image src={logo} alt="Logo" className="w-24 sm:w-32 md:w-40" />
       </Link>
     </div>
     <div className="navbar-end">
