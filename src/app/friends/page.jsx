@@ -1,15 +1,20 @@
+
 import FriendCard from "@/components/ui/FriendCard";
 
+
 const friendsPromise = async function () {
-  const res = await fetch("https://kinkeeper-tau.vercel.app//data.json");
+    const res = await fetch("https://kinkeeper-tau.vercel.app/data.json", {
+    cache: "no-store"
+  });
   const data = await res.json();
-   await new Promise((resolve) => setTimeout(resolve, 1000));
+  //  await new Promise((resolve) => setTimeout(resolve, 1000));
   return data;
 };
 
 const FriendsPage = async() => {
 
-    const friends = await friendsPromise();
+    const friendsList = await friendsPromise();
+
 
   return (
     <div className="container mx-auto">
@@ -19,7 +24,7 @@ const FriendsPage = async() => {
     
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {
-      friends.map((friend,ind) => (
+      friendsList.map((friend,ind) => (
         <FriendCard key={ind} friend={friend} />
       ))
       }
